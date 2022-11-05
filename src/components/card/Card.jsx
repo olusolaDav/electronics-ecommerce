@@ -6,15 +6,7 @@ import {FcRating} from 'react-icons/fc'
 
 function CardModel({imgUrl, body,  price, alt, review, condition}) {
    
- const myImages = {
-   backgroundImage: `url(${imgUrl})`,
-   height: "100%",
-   marginTop: "1rem",
-   backgroundSize: "cover",
-   backgroundRepeat: "no-repeat",
-   backgroundPosition: "center",
-   marginBottom: "1rem",
- };
+ 
 
     return (
       <div className='card'>
