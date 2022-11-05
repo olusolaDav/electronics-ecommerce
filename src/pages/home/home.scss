@@ -1,0 +1,46 @@
+@mixin gridContainer {    
+  margin: 0 auto;
+    max-width: 100rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(22.5rem, 1fr));
+    grid-auto-rows: auto;
+    gap: 2rem;
+    font-family: sans-serif;
+    padding-top: 3rem;
+}
+  
+.home{
+  background-color: rgb(252, 252, 252);
+}
+
+  .product--container {
+    // max-width: 100rem;
+    @include gridContainer;
+   //  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+}
+
+ .product--container * {
+    box-sizing: border-box!important;
+    
+}
+
+.category--container {
+  @include gridContainer;  
+}
+
+.partners--container{
+   //max-width: 90vw;
+    @include gridContainer;  
+    // grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+     gap: 3rem;
+     row-gap: 8rem;
+     background-color: white;
+}
+
+
+
+.category--container * {
+  box-sizing: border-box!important;
+ 
+}
+

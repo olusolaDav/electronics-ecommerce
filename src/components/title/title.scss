@@ -1,0 +1,27 @@
+.title-component{
+    width: 100%;
+    margin: 5rem;
+
+    &__content{
+        width: 40%;
+        margin: auto auto;
+        position: relative;
+
+
+        h3{
+            font-size: 4rem;
+            font-weight: 200;
+            text-align: center;
+            letter-spacing: 1rem;
+        }
+
+        &--line{
+            width: 15rem;
+            height: 0.5rem;
+            border-radius: 1rem;
+            background-color: blue;
+            position: absolute;
+            left: 40%;
+        }
+    }
+}
